@@ -34,7 +34,7 @@ body {
 
 .parallax {
     /* The image used */
-    background-image: url(/media/meyer_greyscale_bkg.png);
+    background-image: url(/media/backgroundblue.png);
     /* Set a specific height */
     height: 500px;
 
@@ -46,7 +46,7 @@ body {
 }
 /* Somehow THIS works only when inline*/
 .myparallax{
-    background-image: url("/media/meyer_greyscale_bkg.png");
+    background-image: url("/media/backgroundblue.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
