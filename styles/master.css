@@ -31,24 +31,3 @@ body {
 .nav-selector:hover {
    background-color: dimgrey;
 }
-
-.parallax {
-    /* The image used */
-    background-image: url(/media/backgroundblack.jpg);
-    /* Set a specific height */
-    height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/* Somehow THIS works only when inline*/
-.myparallax{
-    background-image: url("/media/backgroundblack.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
