@@ -49,9 +49,21 @@ font-family: 'Lobster', cursive;
     background-color: #5e5e5e;
 }
 
-.watermark
-{
+.watermark {
     background-image: url(../media/logo-fundo-transparente-01.png);
+    background-position: center center;
+    opacity: 0.8;
+    background-size: 45%; /* CSS3 only, but not really necessary if you make a large enough image */
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    z-index: 10;
+}
+
+.watermark2 {
+    background-image: url(../media/Meyer_1570_Longsword_G.jpg);
     background-position: center center;
     opacity: 0.8;
     background-size: 45%; /* CSS3 only, but not really necessary if you make a large enough image */
