@@ -37,15 +37,10 @@ body {
     color: white !important;
 }
 
-h2 {
-    font-family: MedievalSharp;
-    font-size: 24px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
-    line-height: 26px;
-}
-
 .medieval-font {
     font-family: 'MedievalSharp', cursive
+}
+.lobster-font {
+font-family: 'Lobster', cursive;
+
 }
